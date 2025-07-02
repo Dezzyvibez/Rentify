@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title"> Rentify - Homepage | Find affordable Housing Apartment, Anywhere, Amytime  </title>
+    <link rel="stylesheet" href="form.css">
+	<link rel="icon" href="Rentify-Logo.png" type="image/x-icon"/>
+	
+</head>
+<body>
+
+			<div class="form">
+
+					<form id="Form" method="post" action="php/Signup.php">
+					
+						<div class="logo">
+							<img src="img/Rentify-Logo3.png"/>
+								<h1>Rentify<span></span></h1>
+						</div>
+		
+						
+						<p class="p"> Create your Rentify account and start your journey </p>
+
+							<input type="text" name="email" id="email" maxlength="30" 
+							placeholder="Enter Email" id="signupbox" autocomplete="off" value=""/>
+								<span id="emailError"></span>
+							<input type="password" name="password" id="password" maxlength="30" placeholder="Enter password" autocomplete="new-password" 
+							value=""/>
+								<span id="passwordError"></span>
+							<input type="password" name="cpassword" id="confirmPassword" maxlength="30" placeholder="Confirm password" autocomplete="off" value=""/>
+								<span id="confirmPasswordError"></span>
+							<input type="submit" name="signup" value="Signup"/>
+						
+						<p class="link"> Already have account <a href="login.html">Login</a> </p>
+					</form>
+					
+			</div>
+</div>
+<script src="javascript/slider.js"></script>
+</body>
+</html>
