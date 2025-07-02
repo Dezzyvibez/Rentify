@@ -664,7 +664,7 @@ hr{
 .feature .feature1{
 	width: 83%;
 	height: 80%;
-	background: linear-gradient(rgba(0, 49, 54, 0.8), rgb(0, 49, 54, 0.8)), url('img/images.jpeg');
+	background: linear-gradient(rgba(0, 49, 54, 0.8), rgb(0, 49, 54, 0.8)), url('images.jpeg');
 	background-position: center;
 	background-size: cover;
 	object-fit: fit;
